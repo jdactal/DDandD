@@ -6,6 +6,7 @@ public class Weapon
    private String type;
    private int attack;
    private int defend;
+   private int weight;
    
    //Constructor
    public Weapon(int attackStrength, int defendStrength, String descriptor)
@@ -22,6 +23,18 @@ public class Weapon
       attack = 1;
       defend = 1;
    }
+   public Weapon(){
+      type = "Broadsword";
+      attack = 2;
+      defend = 2;
+      weight = 1;
+   }
+   public Weapon(){
+      type = "Magic Broadsword";
+      attack = 4;
+      defend = 1;
+      weight = 2;
+   }
    
    public int getAttackStrength()
    {
@@ -36,5 +49,8 @@ public class Weapon
    public String getType()
    {
       return type;
+   }
+   public int getWeightLevel(){
+   return weight;
    }
 }
