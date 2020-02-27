@@ -98,4 +98,4 @@ public class Player
       //ToDo: Add find health potion (+hp)
       return 0; //found nothing!
    }
-   
+   }

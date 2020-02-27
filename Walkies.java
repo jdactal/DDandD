@@ -119,7 +119,7 @@ public class Walkies
       System.out.print("Enter the hero's name: ");
       String name = keyboard.nextLine();
       hero = new Player(name);
-      Weapon knife = new Weapon(1, 1, "Pocket Knife");
+      Weapon knife = new Weapon(1, 1, "Pocket Knife", 1);
       hero.setWeapon(knife);
 
       hero.getStats();
@@ -132,4 +132,5 @@ public class Walkies
       
       //Cave Scenario
       runCaveScenario(1);
-   }   
+   } 
+   }  

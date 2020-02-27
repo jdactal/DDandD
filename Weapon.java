@@ -9,11 +9,12 @@ public class Weapon
    private int weight;
    
    //Constructor
-   public Weapon(int attackStrength, int defendStrength, String descriptor)
+   public Weapon(int attackStrength, int defendStrength, String descriptor, int weight)
    {
       type = descriptor;
       attack = attackStrength;
       defend = defendStrength;
+      weight = weight;
    }
    
    //Default Constructor
@@ -22,6 +23,7 @@ public class Weapon
       type = "dagger";
       attack = 1;
       defend = 1;
+      weight = 0;
    }
    public Weapon(){
       type = "Broadsword";
