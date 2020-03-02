@@ -21,7 +21,7 @@ public class Gus_the_ogre_hunter {
             System.out.println("Gus runs away, screeching like a banshee. The orcs and Gus's son roll their eyes in unison...");
             System.exit(0);
          case 1: // gus gets to the camp
-            System.out.println("Gus readies his sword to attack!");");
+            System.out.println("Gus readies his sword to attack!");
             break;
          case 2: // Gus falls and 50% dies, 50% lives
             System.out.println("Gus slips! He... ");
@@ -72,7 +72,7 @@ public class Gus_the_ogre_hunter {
       switch(priorScene){
          case 1:
             if (action==1){
-               runGusOrcBattle(1)
+               runGusOrcBattle(1);
                //get attack value
                int attack = Gus.attack();
                System.out.println("Gus attacks with a strength of " + attack);
@@ -94,6 +94,5 @@ public class Gus_the_ogre_hunter {
       }
    }
 
-}
 }
 }
