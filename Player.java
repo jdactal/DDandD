@@ -4,8 +4,6 @@ public class Player
    private int max_hp; // max health
    private int hp; // health points
    private int mp; // magic points
-   private int attack; //attack strength with no weapons
-   private int defend; //defend strength with no weapons
    private Weapon theWeapon;
 
    public Player(String playerName) 

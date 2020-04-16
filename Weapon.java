@@ -25,18 +25,6 @@ public class Weapon
       defend = 1;
       weight = 0;
    }
-   public Weapon(){
-      type = "Broadsword";
-      attack = 2;
-      defend = 2;
-      weight = 1;
-   }
-   public Weapon(){
-      type = "Magic Broadsword";
-      attack = 4;
-      defend = 1;
-      weight = 2;
-   }
    
    public int getAttackStrength()
    {
