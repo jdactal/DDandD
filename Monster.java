@@ -8,7 +8,7 @@ public class Monster
    private int def;
    private int mp;
    private String type = "Monster";
-   
+   public String monName2;
    //Constructor
    public Monster(int health, int strength, int defense, int magic)
    {
@@ -16,6 +16,7 @@ public class Monster
       str = strength;
       def = defense;
       mp = magic;
+      monName2 = nameChooser();
    }
    
    //Default Constructor
@@ -38,6 +39,15 @@ public class Monster
       {  
          hp = 0;
       }
+      return hp;
+   }
+   private String nameChooser(){
+   String[] monName = {"Brian", "Twinkie", "Julia", "Humphery", "xX_n00bSl@ya_Xx"};
+   int rand = (int)(Math.random()*5);
+   rand = (Math.round(rand));
+   return monName[rand];
+   }
+   public int getHealth(){
       return hp;
    }
 }

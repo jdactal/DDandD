@@ -5,6 +5,8 @@ public class Player
    private int hp; // health points
    private int mp; // magic points
    private Weapon theWeapon;
+   public int attack;
+   public int defend;
 
    public Player(String playerName) 
    {

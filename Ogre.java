@@ -44,7 +44,7 @@ public class Ogre extends Monster
 
    private String generateName()
    {
-      String[] names = { "Alexei", "Bambi", "Clyde", "Fred", "Morton", "Stanley" };
+      String[] names = { "Alexei", "hibivizxivazuak", "Clyde", "Fred", "Humphery McHuphery", "xX_n00bSl@yer_Xx", "Clyde" };
       int random = (int)((Math.random()*7)+1);
       if (random >= 0 && random <= 6) return names[random];
       else return "Charles"; //something wrong with the generator!
